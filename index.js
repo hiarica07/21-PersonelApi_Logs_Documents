@@ -118,7 +118,7 @@ app.all('/', (req, res) => {
 app.use('/auth', require('./src/routes/auth'))
 
 // token
-app.use('/tokens', require('./src/routes/token'))
+// app.use('/tokens', require('./src/routes/token'))
 
 // department
 app.use('/departments', require('./src/routes/department'))
